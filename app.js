@@ -1,5 +1,7 @@
+const multiplicar = require('./multiplicar');
 const restar = require('./restar');
 const sumar = require('./sumar');
+const dividir = require('./dividir');
 
 //requires
 const argv = require('process').argv;
@@ -21,4 +23,10 @@ if (operacion === 'sumar') {
 
 if(operacion === 'restar'){
     console.log(restar(numberA,numberB)); 
+}
+if(operacion === 'multiplicar'){
+    console.log(multiplicar(numberA,numberB)); 
+}
+if(operacion === 'dividir'){
+    console.log(dividir(numberA,numberB)); 
 }
