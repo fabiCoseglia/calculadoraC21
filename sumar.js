@@ -1,8 +1,7 @@
-sumar = function (a, b) {
+const sumar = function (a, b) {
     return a + b;
-  };
+  }
   
-  module.exports = {
-    sumar,
-  };
+  module.exports = sumar
+   
   
